@@ -23,7 +23,7 @@ const resolvers = {
       return chat
     },
     userJoined(root, { name }, { pubsub }){
-      const hex = ['blue', '#fd5750', '#2cb673']
+      const hex = ['#ff3098', '#fd5750', '#2cb673']
       const uid = require('crypto').randomBytes(10).toString('hex');
       const hexCode = hex[Math.floor(Math.random() * hex.length)]
       const user = { id: uid, name, hex: hexCode}
