@@ -4,7 +4,7 @@
   "description": "Building realtime app with GraphQL subscriptions",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "node src/index.js"
   },
   "engines": {
     "node": "v10.15.3"
